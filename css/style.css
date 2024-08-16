@@ -1,0 +1,139 @@
+/* reset */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #f0ebf8;
+}
+
+h1,h2,h3,h4,h5 {
+    color: #000;
+}
+input{
+    border: none;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+
+span{
+    color: red;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"],
+input[type="file"],
+textarea{
+    width: 400px;
+}
+
+textarea{
+    padding: 10px 5px;
+}
+
+/* place header */
+.header{
+    height: 100px;
+    padding: 30px;
+    background-color: #dec57a;
+}
+/* form container */
+.form-container{
+    background-color: #FDFDFD;
+    width: 60%;
+    margin: 0 auto;
+    position: relative;
+    top: -75px;
+}
+
+/* form header */
+.form-header{
+    border-bottom: 1px solid #DFDFDFDF;
+    height: 45px;
+}
+.form-header p{
+    color: #000;
+    border-bottom: 1px solid #000;
+    width: 300px;
+    text-align: center;
+    margin: 0 auto;
+    text-transform: uppercase;
+    height: 45px;
+    line-height: 45px;
+}
+
+/* form body */
+
+.form-body{
+    padding: 30px;
+}
+
+.form-tittle{
+    margin-bottom: 15px;
+    text-align: center;
+
+}
+
+.form-body p{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.required-field{
+    color: rgba(255, 0, 0, 0.568);
+}
+
+.box-input{
+    margin-bottom: 30px;
+}
+
+.block{
+    display: block;
+}
+
+.optional-box{
+    display: inline-block;
+    margin: 0 50px 15px 0;
+}
+.optional-box p{
+    margin: 15px auto;
+    text-align: left;
+}
+.optional-list li{
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.box-input p{
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.box-input-img{
+    border-bottom: 1px solid #000;
+    border-top: 1px solid #000;
+    margin: 10px auto;
+}
+
+.box-input-img p{
+    margin: 10px auto;
+    text-align: left;
+}
+
+.btn-submit{
+    background-color: #000;
+    color: #FFF;
+    border: 2px solid transparent;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+.btn-submit:hover{
+    background-color: #07ec13;
+}
